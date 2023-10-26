@@ -6,6 +6,7 @@ import cv2
 import pandas as pd
 import numpy as np
 import sqlite3
+from io import BytesIO
 import time
 
 # Connect to a database (or create a new one if it doesn't exist)
