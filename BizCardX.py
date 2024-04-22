@@ -44,9 +44,9 @@ if selected == "Home":
             The project aims at developing a Streamlit application that allows users to upload an image of a 
             <span style="color: blue;">business card</span> and extract relevant information using <span style="color: blue;">easyOCR</span>. The extracted information includes 
             <span style="color: blue;">Cardholder Name, Designation, Address, Pincode, Mobile number, email, website URL and Company's name</span>. 
-            This information should then be displayed in the application's <span  style="color: blue;">graphical user interface (GUI)</span>. 
-            The application should allow users to save the extracted information into the database</span>. 
-            The database should be able to store multiple entries, each with its own extracted information.</div>""", unsafe_allow_html=True)  
+            This information is then displayed in the application's <span  style="color: blue;">graphical user interface (GUI)</span>. 
+            The application allows users to save the extracted information into the database</span>. 
+            The database is able to store multiple entries, each with its own extracted information.</div>""", unsafe_allow_html=True)  
     st.write('')
     st.write('')
     st.markdown("**:orange[Technologies used]: :blue[OCR, Streamlit GUI, SQL, Python]**")
